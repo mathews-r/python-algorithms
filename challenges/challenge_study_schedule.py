@@ -9,6 +9,3 @@ def study_schedule(permanence_period, target_time):
             return None
 
     return counter
-
-
-print(study_schedule([(2, 2), (1, 2), (2, 3), (1, 5), (4, 5)], 3))

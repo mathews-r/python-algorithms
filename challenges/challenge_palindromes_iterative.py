@@ -9,9 +9,9 @@ def is_palindrome_iterative(word):
     # reverse_word = reduce(lambda x, y: y + x, word)
 
     reverse_word = ""
-    for i in word:
+    for i in word.lower():
         reverse_word = i + reverse_word
-    return reverse_word == word
+    return reverse_word == word.lower()
 
 
 print(is_palindrome_iterative("agua"))

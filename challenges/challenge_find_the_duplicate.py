@@ -1,17 +1,12 @@
+import collections
+
+
 def find_duplicate(nums):
     if nums == []:
         return False
 
-    sorted_nums = sorted(nums)
-
-    response = 0
-    index = 1
-
-    for number in sorted_nums:
-        if number == sorted_nums[index]:
-            response = number
-            index += 1
-    return response
-
-
-print(find_duplicate([1, 2, 3]))
+    nums_checked = collections.Counter(nums).most_common()
+    if nums_checked[0][1] == 1 or nums_checked[0][0] <= 0:
+        return False
+    else:
+        return nums_checked[0][0]

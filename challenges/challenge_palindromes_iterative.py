@@ -1,17 +1,7 @@
-# from functools import reduce
-
-
 def is_palindrome_iterative(word):
     if word == "":
         return False
-    # reverse_word = word.lower()[::-1]
 
-    # reverse_word = reduce(lambda x, y: y + x, word)
+    list_word = list(word)
 
-    reverse_word = ""
-    for i in word.lower():
-        reverse_word = i + reverse_word
-    return reverse_word == word.lower()
-
-
-print(is_palindrome_iterative("agua"))
+    return word == "".join(list_word[::-1])

@@ -1,13 +1,49 @@
-Neste projeto resolvi problemas e otimizei algoritmos desenvolvendo a minha capacidade de implementar soluções para os mais diversos problemas do dia a dia!
+# :red_square: Algorithms :green_square:
 
-Habilidades exercitadas:
+Neste projeto resolvi problemas e otimizei algoritmos desenvolvendo a capacidade de implementar soluções para os mais diversos problemas do dia a dia!
 
-Lógica;
+## ⚙️ Habilidades trabalhadas
 
-Capacidade de interpretação de problemas;
+✅ Lógica;
 
-Capacidade de interpretação de um código legado;
+✅ Capacidade de interpretação de problemas;
 
-Capacidade de otimizar a resolução de problemas e;
+✅ Capacidade de interpretação de um código legado;
 
-Resolver problemas/Otimizar algoritmos sob pressão.
+✅ Capacidade de otimizar a resolução de problemas e;
+
+✅ Resolver problemas/Otimizar algoritmos sob pressão.
+
+## :hammer_and_wrench: Ferramentas 
+### 🍮 BackEnd
+- Python;
+- PyTest;
+- Algoritmos de recursão;
+- Algoritmos de busca;
+- Algoritmos de ordenação;
+
+# Orientações
+
+- *Clonar o repositório:*
+
+```
+$ git clone git@github.com:mathews-r/python-algorithms
+```
+
+- *Acessar o projeto python-algorithms:*
+
+```
+$ cd algorithms
+
+```
+
+- *Para testar a aplicação:*
+```
+Utilizar o comando do pytest:
+
+python3 -m pytest
+```
+
+## 👨‍💻 Desenvolvedor
+
+- [Mathews Rodrigues](https://www.linkedin.com/in/mathewsrodrigues/)
